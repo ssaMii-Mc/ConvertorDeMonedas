@@ -7,28 +7,6 @@ public class Producto {
         this.precioBase = precioBase;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public double getPrecioBase() {
-        return precioBase;
-    }
-
-   
-    }
-
-
-public class Moneda {
-    private String codigo; 
-
-
-    public String getCodigo() {
-        return codigo;
-    }
-
-    @Override
-    public String toString() {
-        return codigo;
-    }
+    public String getNombre() { return nombre; }
+    public double getPrecioBase() { return precioBase; }
 }
